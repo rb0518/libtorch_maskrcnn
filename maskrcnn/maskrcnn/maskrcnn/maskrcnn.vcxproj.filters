@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="src\nms\cuda\nms_kernel.cu">
+      <Filter>src\nms\cuda</Filter>
+    </CudaCompile>
+    <CudaCompile Include="src\roialign\cuda\crop_and_resize_kernel.cu">
+      <Filter>src\roialign\cuda</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{f34ad63f-33cc-49e6-b745-ff1b457db7cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{ee23a359-b209-4eb7-b32e-e05698ee1f3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\coco">
+      <UniqueIdentifier>{203b464a-76f3-4261-bd3c-103d94aa3296}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\coco">
+      <UniqueIdentifier>{fe8e696b-dabf-4f9e-a460-31ccbfd92e93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\nms">
+      <UniqueIdentifier>{cfef8bb4-4337-41d2-a280-e42ac418173f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\nms">
+      <UniqueIdentifier>{e2b2cc72-83d1-49f6-9399-97e17c79abfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\nms\cuda">
+      <UniqueIdentifier>{10d28c78-d5f8-47b6-9206-898c5cba9d70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\nms\cuda">
+      <UniqueIdentifier>{d4277805-a32a-4409-b217-6bf074433acb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\roialign">
+      <UniqueIdentifier>{15441ca6-8605-4c3a-9106-fd9d49120d1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\roialign">
+      <UniqueIdentifier>{46627f48-20fc-4c3c-91c1-57d3cb5aadec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\roialign\cuda">
+      <UniqueIdentifier>{6a600fc8-dd75-4ab7-b8db-447170dae460}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\roialign\cuda">
+      <UniqueIdentifier>{257a6752-dc5d-4060-bf98-b50d3f302f5d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\train.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\config.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cocoloader.cpp">
+      <Filter>src\coco</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cocodataset.cpp">
+      <Filter>src\coco</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imageutils.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\nnutils.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\maskrcnn.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\classifier.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fpn.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mask.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rpn.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\statreporter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\detectionlayer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\detectiontargetlayer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\loss.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proposallayer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boxutils.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\nms.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\nms\nms_cuda.cpp">
+      <Filter>src\nms</Filter>
+    </ClCompile>
+    <ClCompile Include="src\resnet.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stateloader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\anchors.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\roialign\crop_and_resize.cpp">
+      <Filter>src\roialign</Filter>
+    </ClCompile>
+    <ClCompile Include="src\roialign\crop_and_resize_gpu.cpp">
+      <Filter>src\roialign</Filter>
+    </ClCompile>
+    <ClCompile Include="src\nms\nms_cpu.cpp">
+      <Filter>src\nms</Filter>
+    </ClCompile>
+    <ClCompile Include="src\roialign.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\datasetclasses.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\visualize.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\config.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cocoloader.h">
+      <Filter>include\coco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cocodataset.h">
+      <Filter>include\coco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imageutils.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nnutils.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\maskrcnn.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\classifier.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fpn.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mask.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rpn.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\statreporter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\detectionlayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\detectiontargetlayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\loss.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\proposallayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\boxutils.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nms.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nms\nms_cuda.h">
+      <Filter>include\nms</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nms\cuda\nms_kernel.h">
+      <Filter>include\nms\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="include\resnet.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stateloader.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\anchors.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\roialign\cuda\crop_and_resize_kernel.h">
+      <Filter>include\roialign\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="include\roialign\crop_and_resize.h">
+      <Filter>include\roialign</Filter>
+    </ClInclude>
+    <ClInclude Include="include\roialign\crop_and_resize_gpu.h">
+      <Filter>include\roialign</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nms\nms_cpu.h">
+      <Filter>include\nms</Filter>
+    </ClInclude>
+    <ClInclude Include="include\roialign.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\datasetclasses.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\visualize.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
